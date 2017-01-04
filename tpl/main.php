@@ -120,7 +120,7 @@
       <hr>
 
       <footer>
-        <p>&copy; :)</p>
+        <p>&copy; :)...</p>
       </footer>
 
     </div><!--/.container-->
