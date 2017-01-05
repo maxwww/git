@@ -7,4 +7,5 @@ return [
     'multiply' => 'Multiply',
     'division' => 'Division',
     'root' => 'Root',
+    'logarifm' => 'Logarifm',
 ];
