@@ -57,7 +57,7 @@
           
           <div class="row">
               <div class="col-xs-12 col-lg-12">
-                  <?php if($_SESSION['result'] !== null): ?>
+                  <?php if(isset($_SESSION['result']) && $_SESSION['result'] !== null): ?>
                     <div class="alert alert-info">
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                          <span aria-hidden="true">&times;</span>
@@ -97,6 +97,23 @@
                     </div>
                     <input name="subtraction" type="hidden" value="1"/>
                     <button type="submit" class="btn btn-default">Сложить</button>
+                </form>
+            </div><!--/.col-xs-6.col-lg-4-->
+            
+            
+            <div class="col-xs-6 col-lg-4">
+              <h2>Степень</h2>
+              <form method="POST" action="">
+                    <div class="form-group">
+                        <label for="additionN1">Первое число</label>
+                        <input type="text" name="num1" class="form-control" id="additionN1" placeholder="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="additionN2">Второе число</label>
+                        <input type="text" name="num2" class="form-control" id="additionN2" placeholder="0">
+                    </div>
+                    <input name="exponentiation" type="hidden" value="1"/>
+                    <button type="submit" class="btn btn-default">Возвести в степень</button>
                 </form>
             </div><!--/.col-xs-6.col-lg-4-->
 
