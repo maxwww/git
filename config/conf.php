@@ -8,4 +8,6 @@ return [
     'division' => 'Division',
     'root' => 'Root',
     'logarifm' => 'Logarifm',
+    'gcd' => 'Gcd',
 ];
+

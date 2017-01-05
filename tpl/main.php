@@ -99,9 +99,7 @@
                     <button type="submit" class="btn btn-default">Сложить</button>
                 </form>
             </div><!--/.col-xs-6.col-lg-4-->
-            
-            
-            
+ 
             
             <div class="col-xs-6 col-lg-4">
               <h2>Степень</h2>            
@@ -139,7 +137,7 @@
 	    <div class="col-xs-6 col-lg-4">
 
               <h2>Умножение</h2>
-              <form method="POST" action="">
+                <form method="POST" action="">
                     <div class="form-group">
                         <label for="additionN1">Первое число</label>
                         <input type="text" name="num1" class="form-control" id="additionN1" placeholder="0">
@@ -171,8 +169,7 @@
                 </form>
             </div><!--/.col-xs-6.col-lg-4--> 
             
-	    <div class="col-xs-6 col-lg-4">            
-              <h2>Деление</h2>
+	    <div class="col-xs-6 col-lg-4">              
               <h2>Корень</h2>
               <form method="POST" action="">
                     <div class="form-group">
@@ -185,16 +182,31 @@
                     </div>
                     <input name="root" type="hidden" value="1"/>
                     <button type="submit" class="btn btn-default">Вычислить корень</button>
+
+                </form>
+            </div><!--/.col-xs-6.col-lg-4-->             
+                    
+                    
+            <div class="col-xs-6 col-lg-4">
+              <h2>НОД</h2>
+              <form method="POST" action="">
+                    <div class="form-group">
+                        <label for="additionN1">Первое число</label>
+                        <input type="text" name="num1" class="form-control" id="additionN1" placeholder="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="additionN2">Второе число</label>
+                        <input type="text" name="num2" class="form-control" id="additionN2" placeholder="0">
+                    </div>
+                    <input name="gcd" type="hidden" value="1"/>
+                    <button type="submit" class="btn btn-default">НОД</button>
                 </form>
             </div><!--/.col-xs-6.col-lg-4-->
 
             
           
           </div><!--/row-->
-        
-        
-        
-        
+
         </div><!--/.col-xs-12.col-sm-9-->
 
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
