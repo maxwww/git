@@ -9,5 +9,5 @@ return [
     'root' => 'Root',
     'logarifm' => 'Logarifm',
     'gcd' => 'Gcd',
+    'lcm' => 'Lcm',
 ];
-
