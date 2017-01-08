@@ -6,4 +6,5 @@ return [
     'exponentiation' => 'Exponentiation',
     'multiply' => 'Multiply',
     'division' => 'Division',
+    'root' => 'Root',
 ];
