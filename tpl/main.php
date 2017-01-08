@@ -117,6 +117,23 @@
                 </form>
             </div><!--/.col-xs-6.col-lg-4-->
 
+
+	    <div class="col-xs-6 col-lg-4">
+              <h2>Умножение</h2>
+              <form method="POST" action="">
+                    <div class="form-group">
+                        <label for="additionN1">Первое число</label>
+                        <input type="text" name="num1" class="form-control" id="additionN1" placeholder="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="additionN2">Второе число</label>
+                        <input type="text" name="num2" class="form-control" id="additionN2" placeholder="0">
+                    </div>
+                    <input name="multiply" type="hidden" value="1"/>
+                    <button type="submit" class="btn btn-default">Умножить</button>
+                </form>
+            </div><!--/.col-xs-6.col-lg-4-->
+
             
           
           </div><!--/row-->
