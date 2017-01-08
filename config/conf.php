@@ -5,4 +5,5 @@ return [
     'subtraction' => 'Subtraction',
     'exponentiation' => 'Exponentiation',
     'multiply' => 'Multiply',
+    'division' => 'Division',
 ];
